@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yetiskin_ekrani"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/bckgrnd"
+    tools:context="com.example.tolgand.sorular4kids.yetiskinEkrani">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp"
+        android:padding="8dp"
+        tools:ignore="UselessParent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skor"
+            android:textStyle="bold"
+            android:textColor="#76FF03"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:id="@+id/score_text2"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#76FF03"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:id="@+id/score2"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Hangisi bir cansızdır?"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:textColor="#FFFDE7"
+            android:textStyle="bold"
+            android:layout_marginTop="42dp"
+            android:id="@+id/question2"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ÇIKIŞ"
+            android:textStyle="bold"
+            android:background="@android:color/holo_red_light"
+            android:padding="8dp"
+            android:layout_marginBottom="13dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/quit2"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kuş"
+            android:textStyle="bold"
+            android:background="@android:color/holo_blue_bright"
+            android:padding="8dp"
+            android:id="@+id/ychoice1"
+            tools:ignore="HardcodedText"
+            android:layout_below="@+id/question2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kedi"
+            android:textStyle="bold"
+            android:background="@android:color/holo_blue_bright"
+            android:padding="8dp"
+            tools:ignore="HardcodedText"
+            android:id="@+id/ychoice2"
+            android:layout_below="@+id/ychoice1"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="28dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taş"
+            android:background="@android:color/holo_blue_bright"
+            android:padding="8dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText"
+            android:id="@+id/ychoice3"
+            android:layout_below="@+id/ychoice2"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
